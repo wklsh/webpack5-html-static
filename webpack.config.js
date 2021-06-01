@@ -68,7 +68,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       chunks: ["main", "index"],
-      template: path.resolve(__dirname, "./src/pages/Index/pageIndex.html"),
+      template: path.resolve(__dirname, "./src/pages/index/pageIndex.html"),
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
